@@ -21,6 +21,7 @@ header h1 {
     margin: 0;
     font-size: 1.8em;
     color: #ecf0f1;
+    
 }
 
 header nav ul {
@@ -53,17 +54,17 @@ main {
 
 #hero {
     text-align: center;
-    padding: 3em 1em; /* Réduit le padding */
-    background: #2c3e50; /* Couleur de fond unie */
-    color: #ecf0f1; /* Couleur du texte */
-    border-radius: 10px; /* Bordures arrondies */
-    max-width: 800px; /* Réduit la largeur maximale */
-    margin: 2em auto; /* Centrage */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère */
+    padding: 3em 1em;
+    background: #2c3e50; 
+    color: #ecf0f1;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 2em auto; 
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.2);
 }
 
 #hero h2 span {
-    color: #e74c3c; /* Couleur d'accent pour "Shigito Corp" */
+    color: #e74c3c; 
 }
 
 .hero-cover {
