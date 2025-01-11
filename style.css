@@ -1,0 +1,203 @@
+body {
+    font-family: 'Public Pixel', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f8fa;
+}
+
+header {
+    background: #2c3e50;
+    border-bottom: 1px solid #34495e;
+    padding: 1em 2em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #ecf0f1;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 0;
+    padding: 2em;
+}
+
+#hero {
+    text-align: center;
+    padding: 3em 1em; /* Réduit le padding */
+    background: #2c3e50; /* Couleur de fond unie */
+    color: #ecf0f1; /* Couleur du texte */
+    border-radius: 10px; /* Bordures arrondies */
+    max-width: 800px; /* Réduit la largeur maximale */
+    margin: 2em auto; /* Centrage */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère */
+}
+
+#hero h2 span {
+    color: #e74c3c; /* Couleur d'accent pour "Shigito Corp" */
+}
+
+.hero-cover {
+    max-width: 250px; /* Réduit la taille de la jaquette */
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+#hero p {
+    font-size: 0.9em; /* Réduit la taille du texte */
+    line-height: 1.4; /* Espacement des lignes */
+    margin: 1em 0; /* Marge autour du texte */
+}
+.card {
+    background: white;
+    margin: 2em auto;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.card ul li {
+    margin-bottom: 1em;
+}
+
+.team-photo {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.team-members {
+    text-align: left;
+}
+
+.team-member {
+    margin-bottom: 1.5em;
+}
+
+.team-member h3 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+.team-member p {
+    margin: 0;
+    color: #7f8c8d;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5em;
+    background: #2c3e50;
+    border-top: 1px solid #34495e;
+    margin-top: 2em;
+    color: #ecf0f1;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+/* Styles pour le slider */
+#slider-section {
+    margin: 2em 0;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shigito Corp - Samurai Souls</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Shigito Corp</h1>
+        <nav>
+            <ul>
+                <li><a href="projet.html">Notre Projet</a></li>
+                <li><a href="equipe.html">Notre Equipe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <img src="jaquette.jpg" alt="Jaquette de Samurai Souls" class="hero-cover" />
+                <h2>Bienvenue chez <span>Shigito Corp</span></h2>
+                <p>
+                    Studio de jeux independant, nous creons des experiences immersives et captivantes. 
+                    Decouvrez notre premier projet, <strong>Samurai Souls</strong>, une aventure epique dans un Japon medieval rempli de mysteres et de dangers.
+                </p>
+            </div>
+        </section>
+    </main>
+    <section id="slider-section">
+        <div class="slider">
+            <div class="slides">
+                <!-- Image -->
+                <img src="Preview.png" alt="Image 1" class="slide">
+                
+                <!-- GIF -->
+                <img src="Preview.gif" alt="GIF Animation" class="slide">
+                
+                <!-- Vidéo -->
+                <video class="slide" controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la vidéo.
+                </video>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Shigito Corp. Tous droits reserves.</p>
+        <nav>
+            <ul>
+                <li><a href="#">Mail</a></li>
+                <li><a href="https://x.com/ShigitoC50228">X (Twitter)</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="javascript.js"></script>
+
+
+</html>
