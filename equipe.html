@@ -4,59 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notre Equipe - Shigito Corp</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Notre Équipe - Shigito Corp</title>
     <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Notre Equipe</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="projet.html">Notre Projet</a></li>
-            </ul>
-        </nav>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Notre Équipe</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="projet.html" class="nav-link">Notre Projet</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section class="card">
-            <h2>Notre Equipe</h2>
-            <div class="team-members"></div>
-            <img src="Images/team_photo.jpg" alt="Photo de l'equipe" class="team-photo" />
-            <div class="team-member">
-                <p>De la gauche vers la droite : Raphael, Willy, Isaac, Thomas</p>
-            </div>
-            <div class="team-member">
-                    <h3>Raphael</h3>
-                    <p>Nonchalant Indian</p>
+    <!-- Team Section -->
+    <main class="team">
+        <div class="container">
+            <section class="card">
+                <h2 class="card-title">Notre Equipe</h2>
+                <img src="Images/team_photo.jpg" alt="Photo de l'équipe" class="team-photo" />
+                <p class="team-description">De la gauche vers la droite : Raphael, Willy, Isaac, Thomas</p>
+
+                <!-- Team Members -->
+                <div class="team-members">
+                    <div class="team-member">
+                        <h3 class="member-name">Raphael</h3>
+                        <p class="member-role">Nonchalant Indian</p>
+                    </div>
+                    <div class="team-member">
+                        <h3 class="member-name">Willy</h3>
+                        <p class="member-role">Il est trop nul a Deadshot</p>
+                    </div>
+                    <div class="team-member">
+                        <h3 class="member-name">Isaac</h3>
+                        <p class="member-role">GOAT</p>
+                    </div>
+                    <div class="team-member">
+                        <h3 class="member-name">Thomas</h3>
+                        <p class="member-role">0 Rizz</p>
+                    </div>
                 </div>
-                <div class="team-member">
-                    <h3>Willy</h3>
-                    <p>Il est trop nul a deadshot</p>
-                </div>
-                <div class="team-member">
-                    <h3>Isaac</h3>
-                    <p>GOAT</p>
-                </div>
-                <div class="team-member">
-                    <h3>Thomas</h3>
-                    <p>0 rizz</p>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
 
-    <footer>
-        <p>Nous Contacter</p>
-        <nav>
-            <ul>
-                <li><a href="#">Mail</a></li>
-                <li><a href="https://x.com/ShigitoC50228">X (Twitter)</a></li>
-            </ul>
-        </nav>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Nous Contacter</p>
+            <nav class="footer-nav">
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Mail</a></li>
+                    <li><a href="https://x.com/ShigitoC50228" class="footer-link">X (Twitter)</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
+
+    <script src="javascript.js"></script>
 </body>
 
 </html>

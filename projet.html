@@ -5,49 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notre Projet - Shigito Corp</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Notre Projet</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="equipe.html">Notre Equipe</a></li>
-            </ul>
-        </nav>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Notre Projet</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="equipe.html" class="nav-link">Notre Équipe</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section class="card">
-            <h2>Samurai Souls</h2>
-            <p>
-                Samurai Souls plonge les joueurs dans un Japon medieval surnaturel. Vous incarnez Mugen, un samourai qui doit sauver sa fille des griffes du Voleur d'Ames. Ce jeu melange combats intenses, exploration mystique et une narration emouvante.
-            </p>
-        </section>
+    <!-- Main Content -->
+    <main class="project">
+        <div class="container">
+            <!-- Section 1: Présentation du projet -->
+            <section class="card">
+                <h2 class="card-title">Samurai Souls</h2>
+                <p class="card-description">
+                    Samurai Souls plonge les joueurs dans un Japon medieval surnaturel. Vous incarnez Mugen, un samourai qui doit sauver sa fille des griffes du Voleur d'Ames. Ce jeu melange combats intenses, exploration mystique et une narration emouvante.
+                </p>
+            </section>
 
-        <section class="card">
-            <h2>Features Principales</h2>
-            <ul>
-                <li><strong>Combat tactique :</strong> Maitrisez techniques de samourai et pouvoirs surnaturels.</li>
-                <li><strong>Exploration :</strong> Parcourez un monde ou mysteres et dangers vous guettent.</li>
-                <li><strong>Progression :</strong> Ameliorations et competences adaptees a votre style.</li>
-                <li><strong>Narration :</strong> Une histoire immersive sur fond de vengeance et de redemption.</li>
-            </ul>
-        </section>
+            <!-- Section 2: Features Principales -->
+            <section class="card">
+                <h2 class="card-title">Features Principales</h2>
+                <ul class="features-list">
+                    <li class="feature-item">
+                        <strong>Combat tactique :</strong> Maitrisez techniques de samourai et pouvoirs surnaturels.
+                    </li>
+                    <li class="feature-item">
+                        <strong>Exploration :</strong> Parcourez un monde ou mysteres et dangers vous guettent.
+                    </li>
+                    <li class="feature-item">
+                        <strong>Progression :</strong> Ameliorations et competences adaptees a votre style.
+                    </li>
+                    <li class="feature-item">
+                        <strong>Narration :</strong> Une histoire immersive sur fond de vengeance et de redemption.
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>
 
-    <footer>
-        <p>Nous Contacter</p>
-        <nav>
-            <ul>
-                <li><a href="#">Mail</a></li>
-                <li><a href="https://x.com/ShigitoC50228">X (Twitter)</a></li>
-            </ul>
-        </nav>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Nous Contacter</p>
+            <nav class="footer-nav">
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Mail</a></li>
+                    <li><a href="https://x.com/ShigitoC50228" class="footer-link">X (Twitter)</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
+
+    <script src="javascript.js"></script>
 </body>
 
 </html>

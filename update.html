@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mises à Jour - Shigito Corp</title>
+    <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Mises à Jour</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="projet.html" class="nav-link">Notre Projet</a></li>
+                    <li><a href="equipe.html" class="nav-link">Notre Équipe</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="update">
+        <div class="container">
+            <!-- Formulaire pour poster une mise à jour -->
+            <section class="post-update">
+                <h2 class="section-title">Community Updates</h2>
+                <form id="update-form" class="update-form">
+                    <textarea id="update-text" class="update-input" placeholder="Quoi de neuf ?" required></textarea>
+                    <button type="submit" class="update-button">Publier</button>
+                </form>
+            </section>
+
+            <!-- Liste des mises à jour -->
+            <section class="updates-list">
+                <h2 class="section-title">Updates</h2>
+                <div id="updates-container" class="updates-container">
+                    <!-- Les mises à jour seront ajoutées ici dynamiquement -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 Shigito Corp. Tous droits reserves.</p>
+            <nav class="footer-nav">
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Mail</a></li>
+                    <li><a href="https://x.com/ShigitoC50228" class="footer-link">X (Twitter)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

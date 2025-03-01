@@ -5,63 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shigito Corp - Samurai Souls</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Shigito Corp</h1>
-        <nav>
-            <ul>
-                <li><a href="projet.html">Notre Projet</a></li>
-                <li><a href="equipe.html">Notre Equipe</a></li>
-            </ul>
-        </nav>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Shigoto Corp</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="projet.html" class="nav-link">Notre Projet</a></li>
+                    <li><a href="equipe.html" class="nav-link">Notre Équipe</a></li>
+                    <li><a href="update.html" class="nav-link">Mises à Jour</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="hero">
-            <div class="hero-content">
-                <img src="Images/jaquette.jpg" alt="Jaquette de Samurai Souls" class="hero-cover" />
-                <h2>Bienvenue chez <span>Shigito Corp</span></h2>
-                <p>
-                    Studio de jeux independant, nous creons des experiences immersives et captivantes. 
-                    Decouvrez notre premier projet, <strong>Samurai Souls</strong>, une aventure epique dans un Japon medieval rempli de mysteres et de dangers.
-                </p>
-            </div>
-        </section>
-    </main>
-    <section id="slider-section">
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <img src="Images/jaquette.jpg" alt="Jaquette de Samurai Souls" class="hero-cover" />
+            <h2 class="hero-title">Bienvenue chez <span>Shigoto Corp</span></h2>
+            <p class="hero-description">
+                Studio de jeux independant, nous creons des experiences immersives et captivantes.
+                Decouvrez notre premier projet, <strong>Samurai Souls</strong>, une aventure epique dans un Japon medieval rempli de mysteres et de dangers.
+            </p>
+        </div>
+    </section>
+
+    <!-- Slider Section -->
+    <section id="slider-section" class="slider-section">
         <div class="slider">
             <div class="slides">
-                <!-- Image -->
                 <img src="Images/Preview.png" alt="Image 1" class="slide">
-                
-                <!-- GIF -->
                 <img src="Images/Preview.gif" alt="GIF Animation" class="slide">
-                
-                <!-- Vidéo -->
                 <video class="slide" controls>
                     <source src="Images/video.mp4" type="video/mp4">
                     Votre navigateur ne supporte pas la vidéo.
                 </video>
             </div>
-            <button class="prev" onclick="prevSlide()">&#10094;</button>
-            <button class="next" onclick="nextSlide()">&#10095;</button>
+            <button class="slider-button prev" onclick="prevSlide()">&#10094;</button>
+            <button class="slider-button next" onclick="nextSlide()">&#10095;</button>
         </div>
     </section>
-    <footer>
-        <p>© 2025 Shigito Corp. Tous droits reserves.</p>
-        <nav>
-            <ul>
-                <li><a href="#">Mail</a></li>
-                <li><a href="https://x.com/ShigitoC50228">X (Twitter)</a></li>
-            </ul>
-        </nav>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 Shigito Corp. Tous droits réservés.</p>
+            <nav class="footer-nav">
+                <ul class="footer-list">
+                    <li><a href="#" class="footer-link">Mail</a></li>
+                    <li><a href="https://x.com/ShigitoC50228" class="footer-link">X (Twitter)</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 
     <script src="javascript.js"></script>
-
+</body>
 
 </html>
